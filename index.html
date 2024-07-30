@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="id"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Biodata</title> 
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d5beff;
+        }
+        header {
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(233, 216, 250);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+        .description {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2196F3;
+            color: rgb(255, 255, 255);
+        }
+        td {
+            background-color: #BBDEFB;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <header> 
+  </header> 
+  <div class="container"> 
+   <div class="photo"> 
+    <img src="data:image/jpeg;base64,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" alt="Foto Profil"> 
+   </div> 
+   <div class="description"> 
+    <h2><center><ins>Inside Out</ins></center></h2> 
+    <p><i>"Inside Out" adalah film animasi dari Pixar yang dirilis pada tahun 2015. Film ini menggambarkan lima emosi utama Joy, Sadness, Fear, Anger, dan Disgust yang hidup dalam pikiran seorang gadis bernama Riley. Ketika Riley pindah ke kota baru, emosinya harus bekerja sama untuk membantunya menavigasi perubahan besar dalam hidupnya. Dengan cerita yang mengharukan dan animasi yang kreatif, "Inside Out" mengajarkan tentang pentingnya memahami dan menerima semua emosi kita.</i></p> 
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ffffff; /* Warna biru */
+            padding: 10px;
+            text-align: left;
+            background-color: #dfdfff; /* Warna biru muda */
+            color: #000000; /* Warna teks hitam */
+        }
+        th {
+            background-color: #9696fd; /* Warna biru untuk header */
+            color: white; /* Warna teks putih */
+        }
+    </style> 
+    <table> 
+     <body> 
+      <tr> 
+       <th>Field</th> 
+       <th>Detail</th> 
+      </tr> 
+      <tr> 
+       <td>Tanggal Rilis</td> 
+       <td>19 Agustus 2015(Indo)</td> 
+      </tr> 
+      <tr> 
+       <td>Sutradara</td> 
+       <td>Pete Docter</td> 
+      </tr> 
+      <tr> 
+       <td>Produser</td> 
+       <td>Jonas Rivera</td> 
+      </tr> 
+      <tr> 
+       <td>Perusahaan Produksi</td> 
+       <td>Pixar Animation Studios</td> 
+      </tr> 
+      <tr> 
+       <td>Box Office</td> 
+       <td>858,8 juta USD</td> 
+      </tr> 
+      <tr> 
+       <td>Cerita Oleh</td> 
+       <td>Pete Docter, Ronnie del carmen</td> 
+      </tr>  
+    </table> 
+    <h6><em>Salwa Nur XI RPL 1</em></h6>
+    <h6><em><mark>Sumber: WikiPedia</mark></em></h6>
+   </div> 
+  </div> 
+ </body>
+</html>
